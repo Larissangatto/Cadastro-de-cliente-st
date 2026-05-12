@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "projeto-pratico-streamlit"
+name = "cadastro-de-cliente-st"
 version = "0.1.0"
 description = ""
 authors = ["Larissa Nathanna Gatto <larissangatto@gmail.com>"]
@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-streamlit = "^1.38.0"
-pandas = "^2.2.2"
+streamlit = "^1.57.0"
+pandas = "^3.0.3"
 
 
 [build-system]
