@@ -7,7 +7,13 @@ st.divider()
 
 name= st.text_input("Name: ",
                     key= "name_costumer")
-birth= st.date_input("Date of birth", format ="MM/DD/YYYY")
+birth = st.date_input(
+    "Date of birth",
+    value=date.today(),
+    min_value=date(1900, 1, 1),
+    max_value=date.today(),
+    format="MM/DD/YYYY"
+)
 type = st.selectbox("Type",
                     ["Individual", "Company"])
 
