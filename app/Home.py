@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-     page_title="Costumer registration",
+     page_title="Customer registration",
      page_icon = "🧾",
      layout="centered"
  )

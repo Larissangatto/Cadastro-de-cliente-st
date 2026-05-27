@@ -2,11 +2,11 @@ import streamlit as st
 from datetime import date
 from services.client_service import register_client
 
-st.title("Costumer registration")
+st.title("Customer registration")
 st.divider()
 
 name= st.text_input("Name: ",
-                    key= "name_costumer")
+                    key= "name_customer")
 birth = st.date_input(
     "Date of birth",
     value=date.today(),
@@ -17,6 +17,6 @@ birth = st.date_input(
 type = st.selectbox("Type",
                     ["Individual", "Company"])
 
-if st.button("Salve costumer"):
+if st.button("Save customer"):
     register_client(name, birth,type)
     st.success("Customer registered successfully.")
