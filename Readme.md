@@ -21,12 +21,14 @@ Sistema de cadastro e consulta de clientes desenvolvido com Python e Streamlit.
 The project follows a modular architecture to separate responsibilities.  
 O projeto segue uma arquitetura modular para separar responsabilidades.
 
+```bash
 app/
 ├── data/       # CSV file storage / Armazenamento do arquivo CSV
 ├── pages/      # Registration and consultation pages / Páginas de cadastro e consulta
 ├── services/   # Business logic and validations / Lógica de negócio e validações
 ├── utils/      # CSV file handling / Manipulação de arquivos CSV
 └── Home.py     # Application entry point / Ponto de entrada da aplicação
+```
 
 ## 🛠️ How to Run / Como Executar
 
