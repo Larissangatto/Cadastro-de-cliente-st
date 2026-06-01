@@ -4,10 +4,11 @@ A customer registration and consultation system developed with Python and Stream
 Sistema de cadastro e consulta de clientes desenvolvido com Python e Streamlit.
 ## Preview
 
-<video controls width="100%">
-  <source src="./assets/videos/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/246566d2-3920-4afd-b3ef-cd8cb4cf4ae5
+
+
 
 ## 🚀 Technologies Used / Tecnologias Utilizadas
 
